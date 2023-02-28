@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import project1 from "../../public/assets/project1.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 const index = () => {
   return (
@@ -8,7 +9,7 @@ const index = () => {
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className=" w-full h-[30vh] lg:h-[40vh] bg-black/70 z-10 " />
         <Image
-          src="/../public/assets/fisto.jpg"
+          src={project1}
           alt="image"
           width="250"
           height="30"

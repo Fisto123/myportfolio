@@ -1,12 +1,11 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const ProjectItem = ({ title, projectUrl, bgImage }) => {
   return (
     <div className="relative w-full flex items-center justify-center h-auto shadow-xl shadow-grey-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#f651e5] to-[#709dff]">
-      <Image
-        src={`/../public/assets/${bgImage}`}
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png"
         width="200"
         height="200"
         className="rounded-xl group-hover:opacity-10 h-[25vh] w-[20vw]"

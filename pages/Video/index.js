@@ -2,13 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
+import project2 from "../../public/assets/project2.png";
+
 const index = () => {
   return (
     <div className="w-full ">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
         <div className=" w-full h-[30vh] lg:h-[40vh] bg-black/70 z-10 " />
         <Image
-          src="/../public/assets/project1.png"
+          src={project2}
           alt="image"
           width="250"
           height="30"

@@ -20,11 +20,6 @@ const Projects = () => {
             bgImage="project2.png"
             projectUrl="/ecommerce"
           />
-          <ProjectItem
-            title="Crypto app"
-            bgImage="web.webp"
-            projectUrl="/crypto"
-          />
         </div>
       </div>
     </div>
